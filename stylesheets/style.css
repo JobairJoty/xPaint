@@ -1,0 +1,78 @@
+body {
+  font-family: Cuprum;
+}
+div#stage {
+  overflow: hidden;
+  width: 855px;
+  margin: auto;
+  padding: 0px;
+}
+
+  div#stage div#header {
+  overflow: hidden;
+    width: 855px;
+    margin: auto;
+    background: lightgray;
+  }
+
+
+div#stage div#header div h2 {
+  margin-top: 0px;
+  margin-bottom: 015px;
+  border-bottom: 1px solid gray;
+      text-align: center;
+}
+
+   div#stage div#header div {
+     float: left;
+     width: 264px;
+    height: 120px;
+     padding: 0px 10px;
+     border-right: 1px solid gray;
+   }
+
+div#header div#colorPattles select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+canvas{
+  display: block;
+  width: 853px;
+  height: 500px;
+  margin:auto;
+  border: 1px solid gray;
+}
+div#stage div#header div#tools {
+      text-align: center;
+}
+
+div#stage div#header div#tools img{
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-right:10px;
+  cursor:pointer; 
+  padding:2px;
+}
+
+
+div#stage div#header div#tools img:hover{
+  outline: 2px solid white;
+}
+
+
+div#stage div#header div#colorPattles img{
+  float: left;
+  vertical-align: middle;
+  cursor:pointer;
+  width: 32px;
+  height: 32px;
+  margin-right: 11px;
+  border-radius: 2px;
+  box-shadow: -1px 1px 1px black;
+}
+
+
+div#stage div#header div#colorPattles img:hover{
+  opacity: 0.7;
+}
